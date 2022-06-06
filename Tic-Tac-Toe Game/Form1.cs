@@ -34,6 +34,7 @@ namespace Tic_Tac_Toe_Game
             {
                 gameturn = "O";
             }
+            box2.Enabled = false;
         }
 
         private void box3_Click(object sender, EventArgs e)
@@ -47,6 +48,7 @@ namespace Tic_Tac_Toe_Game
             {
                 gameturn = "O";
             }
+            box3.Enabled = false;
         }
 
         private void box4_Click(object sender, EventArgs e)
@@ -60,6 +62,7 @@ namespace Tic_Tac_Toe_Game
             {
                 gameturn = "O";
             }
+            box4.Enabled = false;
         }
 
         private void box5_Click(object sender, EventArgs e)
@@ -73,6 +76,7 @@ namespace Tic_Tac_Toe_Game
             {
                 gameturn = "O";
             }
+            box5.Enabled = false;
         }
 
         private void box6_Click(object sender, EventArgs e)
@@ -86,6 +90,7 @@ namespace Tic_Tac_Toe_Game
             {
                 gameturn = "O";
             }
+            box6.Enabled = false;
         }
 
         private void box7_Click(object sender, EventArgs e)
@@ -99,6 +104,7 @@ namespace Tic_Tac_Toe_Game
             {
                 gameturn = "O";
             }
+            box7.Enabled = false;
         }
 
         private void box8_Click(object sender, EventArgs e)
@@ -112,6 +118,7 @@ namespace Tic_Tac_Toe_Game
             {
                 gameturn = "O";
             }
+            box8.Enabled = false;
         }
 
         private void box9_Click(object sender, EventArgs e)
@@ -125,6 +132,7 @@ namespace Tic_Tac_Toe_Game
             {
                 gameturn = "O";
             }
+            box9.Enabled = false;
         }
     }
 }
