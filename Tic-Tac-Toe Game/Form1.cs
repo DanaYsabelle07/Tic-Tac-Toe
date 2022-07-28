@@ -1,138 +1,201 @@
 namespace Tic_Tac_Toe_Game
 {
-    public partial class Form1 : Form
+    public partial class board : Form
     {
-        string gameturn = "X";
+        bool playerturn = true;
+        int gameturn = 0;
 
-        public Form1()
+        public board()
         {
             InitializeComponent();
         }
 
         private void box1_Click(object sender, EventArgs e)
         {
-            box1.Text = gameturn;
-            if (gameturn != "X")
+            if (playerturn)
             {
-                gameturn = "X";
+                box1.Text = "X";
             }
             else
             {
-                gameturn = "O";
+                box1.Text = "O";
             }
+            
             box1.Enabled = false;
+            playerturn = !playerturn;
+            gameturn++;
+            winner();
         }
 
         private void box2_Click(object sender, EventArgs e)
         {
-            box2.Text = gameturn;
-            if (gameturn != "X")
+            if (playerturn)
             {
-                gameturn = "X";
+                box2.Text = "X";
             }
             else
             {
-                gameturn = "O";
+                box2.Text = "O";
             }
             box2.Enabled = false;
+            playerturn = !playerturn;
+            gameturn++;
+            winner();
         }
 
         private void box3_Click(object sender, EventArgs e)
         {
-            box3.Text = gameturn;
-            if (gameturn != "X")
+            if (playerturn)
             {
-                gameturn = "X";
+                box3.Text = "X";
             }
             else
             {
-                gameturn = "O";
+                box3.Text = "O";
             }
             box3.Enabled = false;
+            playerturn = !playerturn;
+            gameturn++;
+            winner();
         }
 
         private void box4_Click(object sender, EventArgs e)
         {
-            box4.Text = gameturn;
-            if (gameturn != "X")
+            if (playerturn)
             {
-                gameturn = "X";
+                box4.Text = "X";
             }
             else
             {
-                gameturn = "O";
+                box4.Text = "O";
             }
             box4.Enabled = false;
+            playerturn = !playerturn;
+            gameturn++;
+            winner();
         }
 
         private void box5_Click(object sender, EventArgs e)
         {
-            box5.Text = gameturn;
-            if (gameturn != "X")
+            if (playerturn)
             {
-                gameturn = "X";
+                box5.Text = "X";
             }
             else
             {
-                gameturn = "O";
+                box5.Text = "O";
             }
             box5.Enabled = false;
+            playerturn = !playerturn;
+            gameturn++;
+            winner();
         }
 
         private void box6_Click(object sender, EventArgs e)
         {
-            box6.Text = gameturn;
-            if (gameturn != "X")
+            if (playerturn)
             {
-                gameturn = "X";
+                box6.Text = "X";
             }
             else
             {
-                gameturn = "O";
+                box6.Text = "O";
             }
             box6.Enabled = false;
+            playerturn = !playerturn;
+            gameturn++;
+            winner();
         }
 
         private void box7_Click(object sender, EventArgs e)
         {
-            box7.Text = gameturn;
-            if (gameturn != "X")
+            if (playerturn)
             {
-                gameturn = "X";
+                box7.Text = "X";
             }
             else
             {
-                gameturn = "O";
+                box7.Text = "O";
             }
             box7.Enabled = false;
+            playerturn = !playerturn;
+            gameturn++;
+            winner();
         }
 
         private void box8_Click(object sender, EventArgs e)
         {
-            box8.Text = gameturn;
-            if (gameturn != "X")
+            if (playerturn)
             {
-                gameturn = "X";
+                box8.Text = "X";
             }
             else
             {
-                gameturn = "O";
+                box8.Text = "O";
             }
             box8.Enabled = false;
+            playerturn = !playerturn;
+            gameturn++;
+            winner();
         }
 
         private void box9_Click(object sender, EventArgs e)
         {
-            box9.Text = gameturn;
-            if (gameturn != "X")
+            if (playerturn)
             {
-                gameturn = "X";
+                box9.Text = "X";
             }
             else
             {
-                gameturn = "O";
+                box9.Text = "O";
             }
             box9.Enabled = false;
+            playerturn = !playerturn;
+            gameturn++;
+            winner();
+        }
+
+        private void winner()
+        {
+            bool thewinner = false;
+
+            if ((box1.Text == box2.Text) && (box1.Text == box3.Text) && (!box1.Enabled))
+                thewinner = true;
+            else if ((box4.Text == box5.Text) && (box4.Text == box6.Text) && (!box4.Enabled))
+                thewinner = true;
+            else if ((box7.Text == box8.Text) && (box7.Text == box9.Text) && (!box7.Enabled))
+                thewinner = true;
+            else if ((box1.Text == box4.Text) && (box1.Text == box7.Text) && (!box1.Enabled))
+                thewinner = true;
+            else if ((box2.Text == box5.Text) && (box2.Text == box8.Text) && (!box2.Enabled))
+                thewinner = true;
+            else if ((box3.Text == box4.Text) && (box3.Text == box9.Text) && (!box3.Enabled))
+                thewinner = true;
+            else if (   (box1.Text == box5.Text) && (box1.Text == box9.Text) && (!box1.Enabled))
+                thewinner = true;
+            else if ((box3.Text == box5.Text) && (box3.Text == box7.Text) && (!box3.Enabled))
+                thewinner = true;
+
+            if (thewinner)
+            {
+                String playerwinner = "";
+                if (playerturn)
+                {
+                    playerwinner = "O";
+                }
+                else
+                {
+                    playerwinner = "X";
+                }
+                MessageBox.Show("Player " + playerwinner + " wins!");
+            }
+            else
+            {
+                if (gameturn == 9)
+                {
+                    MessageBox.Show("It's a draw!");
+                }
+            }
         }
     }
 }

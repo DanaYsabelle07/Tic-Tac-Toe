@@ -4,7 +4,6 @@ C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\bin\Debug\net6.0-win
 C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\bin\Debug\net6.0-windows\Tic-Tac-Toe Game.dll
 C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\bin\Debug\net6.0-windows\Tic-Tac-Toe Game.pdb
 C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\obj\Debug\net6.0-windows\Tic-Tac-Toe Game.csproj.AssemblyReference.cache
-C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\obj\Debug\net6.0-windows\Tic_Tac_Toe_Game.Form1.resources
 C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\obj\Debug\net6.0-windows\Tic-Tac-Toe Game.csproj.GenerateResource.cache
 C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\obj\Debug\net6.0-windows\Tic-Tac-Toe Game.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\obj\Debug\net6.0-windows\Tic-Tac-Toe Game.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@ C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\obj\Debug\net6.0-win
 C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\obj\Debug\net6.0-windows\Tic-Tac-Toe Game.pdb
 C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\obj\Debug\net6.0-windows\Tic-Tac-Toe Game.genruntimeconfig.cache
 C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\obj\Debug\net6.0-windows\ref\Tic-Tac-Toe Game.dll
+C:\Users\aaa\source\repos\Tic-Tac-Toe Game\Tic-Tac-Toe Game\obj\Debug\net6.0-windows\Tic_Tac_Toe_Game.board.resources

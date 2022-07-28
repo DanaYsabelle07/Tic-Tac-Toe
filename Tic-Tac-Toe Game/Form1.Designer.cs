@@ -1,6 +1,6 @@
 ﻿namespace Tic_Tac_Toe_Game
 {
-    partial class Form1
+    partial class board
     {
         /// <summary>
         ///  Required designer variable.
@@ -41,6 +41,7 @@
             // 
             // box1
             // 
+            this.box1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.box1.Location = new System.Drawing.Point(83, 47);
             this.box1.Name = "box1";
             this.box1.Size = new System.Drawing.Size(80, 80);
@@ -50,6 +51,7 @@
             // 
             // box2
             // 
+            this.box2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.box2.Location = new System.Drawing.Point(189, 47);
             this.box2.Name = "box2";
             this.box2.Size = new System.Drawing.Size(80, 80);
@@ -59,6 +61,7 @@
             // 
             // box3
             // 
+            this.box3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.box3.Location = new System.Drawing.Point(297, 47);
             this.box3.Name = "box3";
             this.box3.Size = new System.Drawing.Size(80, 80);
@@ -68,6 +71,7 @@
             // 
             // box4
             // 
+            this.box4.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.box4.Location = new System.Drawing.Point(83, 143);
             this.box4.Name = "box4";
             this.box4.Size = new System.Drawing.Size(80, 80);
@@ -77,6 +81,7 @@
             // 
             // box5
             // 
+            this.box5.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.box5.Location = new System.Drawing.Point(189, 143);
             this.box5.Name = "box5";
             this.box5.Size = new System.Drawing.Size(80, 80);
@@ -86,6 +91,7 @@
             // 
             // box6
             // 
+            this.box6.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.box6.Location = new System.Drawing.Point(297, 143);
             this.box6.Name = "box6";
             this.box6.Size = new System.Drawing.Size(80, 80);
@@ -95,6 +101,7 @@
             // 
             // box7
             // 
+            this.box7.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.box7.Location = new System.Drawing.Point(83, 246);
             this.box7.Name = "box7";
             this.box7.Size = new System.Drawing.Size(80, 80);
@@ -104,6 +111,7 @@
             // 
             // box8
             // 
+            this.box8.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.box8.Location = new System.Drawing.Point(189, 246);
             this.box8.Name = "box8";
             this.box8.Size = new System.Drawing.Size(80, 80);
@@ -113,6 +121,7 @@
             // 
             // box9
             // 
+            this.box9.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.box9.Location = new System.Drawing.Point(297, 246);
             this.box9.Name = "box9";
             this.box9.Size = new System.Drawing.Size(80, 80);
@@ -120,7 +129,7 @@
             this.box9.UseVisualStyleBackColor = true;
             this.box9.Click += new System.EventHandler(this.box9_Click);
             // 
-            // Form1
+            // board
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -134,7 +143,7 @@
             this.Controls.Add(this.box3);
             this.Controls.Add(this.box2);
             this.Controls.Add(this.box1);
-            this.Name = "Form1";
+            this.Name = "board";
             this.Text = "Tic-Tac-Toe";
             this.ResumeLayout(false);
 
